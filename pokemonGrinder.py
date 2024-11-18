@@ -9,3 +9,4 @@ while (not keyboard.is_pressed('shift')):
     pyautogui.keyDown('s')
     pyautogui.keyDown('w')
     pyautogui.keyDown('enter')
+    pyautogui.keyDown('enter')
