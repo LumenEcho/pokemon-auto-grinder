@@ -6,7 +6,7 @@ pyautogui.PAUSE = 1
 
 keyboard.wait('-')
 while (not keyboard.is_pressed('shift')):
-    pyautogui.keyDown('s')
-    pyautogui.keyDown('w')
-    pyautogui.keyDown('enter')
-    pyautogui.keyDown('enter')
+    pyautogui.press('s', 1)
+    pyautogui.press('w', 1)
+    pyautogui.press('enter', 1)
+    pyautogui.press('enter', 1)
