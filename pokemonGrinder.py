@@ -2,11 +2,15 @@ import keyboard
 import pyautogui
 
 pyautogui.FAILSAFE = True
-pyautogui.PAUSE = 1
+pyautogui.PAUSE = .5
 
 keyboard.wait('-')
 while (not keyboard.is_pressed('shift')):
-    pyautogui.press('s', 1)
-    pyautogui.press('w', 1)
-    pyautogui.press('enter', 1)
-    pyautogui.press('enter', 1)
+    pyautogui.keyDown('s')
+    pyautogui.keyUp('s')
+    pyautogui.keyDown('w')
+    pyautogui.keyUp('w')
+    pyautogui.keyDown('enter')
+    pyautogui.keyUp('enter')
+    pyautogui.keyDown('enter')
+    pyautogui.keyUp('enter')
