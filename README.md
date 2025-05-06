@@ -6,5 +6,4 @@ How to use:
 - The inputs are as follows: "s", "w", "enter", "enter". These will be input into whatever you currently have as your primary window, so I would recommend doing this while not doing anything else with your machine
 - When you want to stop the inputs, hold down "shift" until the inputs stop, or move your mouse to the top-left corner of your screen
 
-Keep in mind, these are raw, timed inputs, meaning that things can get thrown off. Only the move in the first slot of your first pokemon will be used, and these inputs will continue regardless of what is happening on the screen, so I would recommend keeping an eye on things while this is running
-
+Keep in mind, these are raw, timed inputs, meaning that things can get thrown off. Only the move in the first slot of your first pokemon will be used, and these inputs will continue regardless of what is happening on the screen, so I would recommend keeping an eye on things while this is running. I do not take responsibility for whatever happens from this program
